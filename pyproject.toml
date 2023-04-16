@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aiowndatabasepractise-1"
+version = "0.1.0"
+description = ""
+authors = ["mayababu <mayababu73@gmail.com>"]
+readme = "README.md"
+packages = [{include = "aiowndatabasepractise_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+gradio = "^3.25.0"
+llama-index = "^0.5.12"
+pypdf2 = "^3.0.1"
+pycryptodome = "^3.17"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
